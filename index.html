@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omah</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unlock&display=swap"
+        rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#FF7420',
+                        item: '#1B2021',
+                        black1: '#191A19'
+
+                    },
+                    fontFamily: {
+                        Poppins: ["Poppins", "sans-serif"],
+                        unlock: ["Unlock", "sans-serif"]
+                    }
+                }
+            }
+        }
+    </script>
+
+
+</head>
+
+<body>
+
+    <div class="flex justify-around items-center px-4 py-8 bg-black1 text-white ">
+        <h2 class="uppercase text-primary font-unlock text-[41px]">Jhontraktor</h2>
+        <ul class="flex gap-[36px] text-[24px]">
+            <li><a href="" class="text-primary underline">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">Project</a></li>
+        </ul>
+        <div class="flex items-center gap-2 text-[24px]">
+            <img src="img/Group 30.png" alt="" class="w-[35px] h-[35px]">
+            <p>English</p>
+            <button class="bg-primary px-4 py-2 rounded-lg">Contact Us</button>
+        </div>
+    </div>
+    <div class="relative">
+        <img src="img/1.svg" alt="" class="w-full">
+        <h2 class="font-Poppins font-semibold text-[64px] absolute top-1 text-white px-36 py-36 mt-36">We Prepare <br>
+        For The <span class="text-primary">Future</span></h2>
+        <p class="absolute text-white top-96 px-36 py-28 font-Poppins font-medium text-[20px]">We provide the best architectural design, contruction, and <br>
+            building maintance services for you.</p>
+        <div class="flex gap-8 top-96 absolute px-36 py-56 text-[23px] font-Poppins text-white font-medium">
+            <button class="bg-primary py-2 px-2 rounded-lg">Our Service</button>
+            <button class="bg-primary py-2 px-2 rounded-lg">View Project</button>
+        </div>
+       <div class=" ">
+            <button class="bg-primary py-2 px-2 rounded-lg">Our Service</button>
+            <button class="bg-primary py-2 px-2 rounded-lg">View Project</button>
+        </div>
+    </div>
+    
+
+
+</body>
+
+</html>
